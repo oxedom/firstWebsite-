@@ -1,0 +1,32 @@
+body {
+    background: rgb(255, 208, 0);
+}
+
+.header {
+    background-color: rgb(98, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerItems {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 50px;
+color: cyan;
+}
+
+.headerItems a {
+text-decoration: none;
+font-weight: 400;
+}
+
+.header h1 {
+    margin-right: 50px;
+}
+.header h1, .headerItems a {
+    color: rgb(255, 208, 0);
+    font-family: sans-serif;
+    text-shadow: 2px 3px #ff0000;
+}
