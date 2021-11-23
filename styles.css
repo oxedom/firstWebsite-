@@ -2,6 +2,21 @@ body {
     background: rgb(255, 208, 0);
 }
 
+button {
+background:green;
+border: greenyellow;
+border-radius: 30%;
+border-style: double;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
 .header {
     background-color: rgb(98, 0, 255);
     display: flex;
